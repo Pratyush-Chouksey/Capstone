@@ -1,0 +1,345 @@
+@import url('https://fonts.googleapis.com/css2?family=Calistoga&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Courier+Prime:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+@font-face {
+    font-family: 'Porter Sans Block';
+    src: url('Fonts/Porter\ Sans\ Block\ Font.ttf') format('truetype');
+}
+
+body{
+    background: #E8F4E7;
+    margin: 0;
+    padding: 0;
+}
+.landing_page {
+    padding: 0px 48px 0px 48px;
+}
+.header {
+    display: flex;
+    height: 80px;
+    border-bottom:1px;
+    align-items: center;
+    justify-content: space-between;
+}
+#logo{
+    font-family: Porter Sans Block;
+    font-size: 42px;
+    font-weight: 400;
+    line-height: 42px;
+    text-align: left;
+    color: #1C221B;
+    margin: 0;
+}
+.page_links{
+    display: flex;
+    gap: 32px;
+}
+.page_link_name{
+    font-family: "Calistoga", serif;
+    font-size: 28px;
+    font-weight: 400;
+    line-height: 32px;
+    text-align: left;
+    text-decoration: none;
+    color: #1C221B;
+}
+.page_link_name:hover{
+    color: #2b82cb;
+    transition: ease-in-out 0.2s;
+    transform: scale(1.35);
+}
+.divider{
+    border-bottom: 1px solid black;
+    margin-left: -48px;
+    margin-right: -48px;
+}
+.container{
+    padding: 48px 0px 48px 0px;
+    margin: 0;
+}
+.Main_content{
+    margin: 0;
+}
+.hero_img_and_text{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 96px 0px 96px 0px;
+    gap: 48px;
+    border: 0px 0px 1px 0px;
+    background: #E8F4E7;
+    margin: 0;
+}
+.hero_text{
+    font-family: "Calistoga", serif;
+    font-size: 120px;
+    font-weight: 400;
+    line-height: 120px;
+    text-align: center;
+    color: #1C221B;
+    margin: 0;
+    animation: zoomInFade 2s ease-out ;
+}
+
+@keyframes zoomInFade {
+    0% {
+        opacity: 0; 
+        transform: scale(0.7);
+    }
+    50% {
+        opacity: 0.8;
+        transform: scale(1.1);
+    }
+    100% {
+        opacity: 1;
+        transform: scale(1);
+    }
+}
+
+#hero_img{
+    border-radius: 20px;
+}
+.project_overview{
+    border: 0px 0px 1px 0px;
+}
+.row{
+    display: flex;
+    padding: 0px 0px 48px 0px;
+    gap: 48px;
+    justify-content: center;
+}
+#row1{
+    padding: 48px 0px 48px 0px;
+}
+.project{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 8px;
+}
+.project_img{
+    border-radius: 10px;
+}
+
+.project_no{
+    font-family: "Courier Prime", serif;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: left;
+}
+.project_name{
+    font-family: "Courier Prime", serif;
+    font-size: 17px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: left;
+}
+.project:hover{
+    transition: ease-in-out 0.3s;
+    transform: scale(1.12);
+    cursor: pointer;
+}
+.about_section {
+    display: flex;
+    justify-content: center;
+    padding: 96px 0px 96px 0px;
+}
+.about{
+    font-family: "Calistoga", serif;
+    max-width: 900px;
+    font-size: 48px;
+    font-weight: 400;
+    line-height: 52px;
+    text-align: center;
+}
+.details{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 48px 0px 48px 0px;
+    gap: 24px;
+    border: 0px 0px 1px 0px;
+}
+.project_highlight{
+    max-width: 900px;
+    font-family: "Calistoga", serif;
+    font-size: 28px;
+    font-weight: 400;
+    line-height: 32px;
+    text-align: left;
+    color: #1C221B;
+}
+.about_team{
+    display: flex;
+    max-width: 900px;
+    gap: 48px;
+}
+.about_team_text{
+    font-family: "Courier Prime", serif;
+    font-size: 17px;
+    font-weight: 400;
+    line-height: 28px;
+    text-align: left;
+}
+.innerContainer{
+    width:268px;
+}
+.impact{
+    display: flex;
+    justify-content: space-between;
+    padding: 48px 0px 48px 0px;
+}
+.Impact_Metrics{
+    width: 648px;
+    font-family: "Calistoga", serif;
+    font-size: 28px;
+    font-weight: 400;
+    line-height: 32px;
+    text-align: left;
+}
+.impact_container{
+    width: 648px;
+}
+.impact_row{
+    display: flex;
+    justify-content: space-between;
+    gap: 48px;
+}
+.stat_container{
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    padding: 24px 0px 48px 0px;
+    gap: 8px;
+    border-top: 1px solid #00000029
+}
+.text1{
+    font-family: "Calistoga", serif;
+    font-size: 48px;
+    font-weight: 400;
+    line-height: 52px;
+    text-align: left;
+    margin: 0;
+}
+.text2{
+    font-family: "Courier Prime", serif;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: left;
+    margin: 0;
+}
+.testemonial{
+    display: flex;
+    flex-direction: column;
+    padding: 48px 0px 48px 0px;
+    gap: 48px;
+    border: 0px 0px 1px 0px;
+}
+.What_Clients_Say {
+    font-family: "Calistoga", serif;
+    font-size: 48px;
+    font-weight: 400;
+    line-height: 52px;
+    text-align: center;
+}
+.testimonialCards{
+    display: flex;
+    gap: 24px;
+    overflow-x: auto;
+    scrollbar-width: none;
+}
+.testimonialCard{
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    padding: 24px;
+    gap: 16px;
+    border-radius: 16px;
+    border: 1px solid #1C221B
+}
+.testimonialContainer{
+    display: flex;
+    gap: 12px;
+    align-items: center;
+}
+.profile{
+    width: 48px;
+    height: 48px;
+    border-radius: 50%;
+}
+.aboutprofiletext1{
+    font-family: "Courier Prime", serif;
+    font-size: 15px;
+    font-weight: 700;
+    line-height: 20px;
+    text-align: left;
+    width: 180px;
+}
+.aboutprofiletext2{
+    font-family: "Courier Prime", serif;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 20px;
+    text-align: left;
+    width: 180px;
+}
+.testimonialQuoteContainer{
+    display: flex;
+    padding: 0px 0px 8px 0px;
+    gap: 12px;
+    opacity: 0.8px;
+}
+.line{
+    width: 0;
+    height: 72px;
+    border-radius: 1px 0px 0px 0px;
+    border: 1px 0px 0px 0px;
+    border: 1px solid #00000029
+}
+.review{
+    font-family: "Courier Prime", serif;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: left;
+    width: 180px;
+    opacity: 0.8;
+}
+.blend{
+    width: 96px;
+    background: linear-gradient(270deg, rgba(232, 244, 231, 0) 0%, #E8F4E7 84%);
+}
+.main-footer {
+    padding: 96px 0 24px;
+}
+
+.footer-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.footer-content p{
+    font-family: "Calistoga", serif;
+    font-size: 28px;
+    font-weight: 400;
+    line-height: 32px;
+}
+.footer-content button{
+    font-family: "Courier Prime", serif;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 32px;
+}
+.contact-button {
+    padding: 12px 24px;
+    border: 1px solid black;
+    border-radius: 8px;
+    background: none;
+    font-size: 20px;
+    cursor: pointer;
+}
+.contact-button:hover {
+    transition: 0.3s ease-in-out;
+    transform: scale(1.2);
+}
